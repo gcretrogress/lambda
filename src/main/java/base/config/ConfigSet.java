@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Configuration;
 
 import base.service.Task;
 import base.service.impl.CompartorTask;
+import base.service.impl.ProcessPersons;
 import base.service.impl.RunnableTask;
 
 @Configuration
@@ -23,5 +24,9 @@ public class ConfigSet {
 	@Bean
 	public Task comparatorTask() {
 		return new CompartorTask();
+	}
+	@Bean
+	public Task processPersonsTask() {
+		return new ProcessPersons();
 	}
 }
