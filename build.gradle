@@ -61,6 +61,7 @@ dependencies {
 	
 	compile fileTree(dir: 'lib', include: '**/*.jar')
 	compile files('src/main/resources')
+	compile files('config')
 	
     // This dependency is exported to consumers, that is to say found on their compile classpath.
     // api 'org.apache.commons:commons-math3:3.6.1'
@@ -73,6 +74,10 @@ dependencies {
     
     compile('org.springframework:spring-core:4.3.9.RELEASE')
     compile('org.springframework:spring-context:4.3.9.RELEASE')
+    compile('org.springframework:spring-aspects:4.3.9.RELEASE')
+    compile('org.springframework:spring-aop:4.3.9.RELEASE')
+    compile('org.springframework:spring-tx:4.3.9.RELEASE')
+    compile('org.springframework:spring-jdbc:4.3.9.RELEASE')
 }
 
 compileJava {
