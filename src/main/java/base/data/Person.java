@@ -36,13 +36,13 @@ public class Person {
 	public static List<Person> createShortList() {
 		List<Person> persons = new ArrayList<Person>();
 		
-		Person p = new Person("John", "Smith", 10, Gender.MALE, "jsmith@tildo.com", "123", "USA");
+		Person p = new Person("John", "Smith", 31, Gender.MALE, "jsmith@tildo.com", "123", "USA");
 		persons.add(p);
-		p = new Person("Base", "Yes", 10, Gender.MALE, "jsmith@tildo.com", "123", "USA");
+		p = new Person("Base", "Yes", 27, Gender.MALE, "jsmith@tildo.com", "123", "USA");
 		persons.add(p);
-		p = new Person("Advan", "Heloo", 10, Gender.MALE, "jsmith@tildo.com", "123", "USA");
+		p = new Person("Advan", "Heloo", 27, Gender.MALE, "jsmith@tildo.com", "123", "USA");
 		persons.add(p);
-		p = new Person("Xavier", "Jlkdf9", 10, Gender.MALE, "jsmith@tildo.com", "123", "USA");
+		p = new Person("Xavier", "Jlkdf9", 27, Gender.MALE, "jsmith@tildo.com", "123", "USA");
 		persons.add(p);
 		
 		return persons;
